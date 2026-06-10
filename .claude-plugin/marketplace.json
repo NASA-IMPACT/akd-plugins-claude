@@ -1,0 +1,18 @@
+{
+  "name": "ieso-worldview-marketplace",
+  "owner": {
+    "name": "Sanjog Thapa",
+    "email": "sanjog.thapa@uah.edu"
+  },
+  "plugins": [
+    {
+      "name": "ieso-worldview",
+      "source": {
+        "type": "github",
+        "repo": "REPLACE-WITH-OWNER/ieso-worldview-plugin"
+      },
+      "description": "Explore NASA Worldview in natural language: discover satellite datasets, understand what they represent, and generate reproducible map visualizations.",
+      "version": "0.1.0"
+    }
+  ]
+}
