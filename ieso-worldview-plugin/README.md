@@ -14,7 +14,7 @@ Inside Claude Code:
 
 ```
 /plugin marketplace add sanzog03/claude-skills-and-plugins
-/plugin install ieso-worldview@ieso-worldview-marketplace
+/plugin install ieso-worldview-agent@akd-plugins
 ```
 
 On install, Claude Code prompts you for any required tokens (see

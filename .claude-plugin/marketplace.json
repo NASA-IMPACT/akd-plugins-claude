@@ -1,12 +1,12 @@
 {
-  "name": "ieso-worldview-marketplace",
+  "name": "akd-plugins",
   "owner": {
     "name": "Sanjog Thapa",
     "email": "sanjog.thapa@uah.edu"
   },
   "plugins": [
     {
-      "name": "ieso-worldview",
+      "name": "ieso-worldview-agent",
       "source": {
         "type": "github",
         "repo": "sanzog03/claude-skills-and-plugins",
