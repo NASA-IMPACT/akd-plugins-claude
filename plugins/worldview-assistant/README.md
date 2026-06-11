@@ -11,7 +11,7 @@ The assistant runs on **your own Claude** (no separate LLM API key).
 ## Install
 
 ```
-/plugin marketplace add sanzog03/claude-skills-and-plugins
+/plugin marketplace add NASA-IMPACT/akd-plugins-claude
 /plugin install worldview-assistant@akd-agents
 ```
 

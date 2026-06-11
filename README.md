@@ -11,7 +11,7 @@ separate LLM API key (everything runs on your own Claude Code subscription).
 Inside Claude Code:
 
 ```
-/plugin marketplace add sanzog03/claude-skills-and-plugins
+/plugin marketplace add NASA-IMPACT/akd-plugins-claude
 ```
 
 ## Available plugins
@@ -72,7 +72,7 @@ Add the marketplace from your working copy (point at the **repo root**, not
 the plugin subdir) and install from it:
 
 ```
-/plugin marketplace add /path/to/claude-skills-and-plugins
+/plugin marketplace add /path/to/akd-plugins-claude
 /plugin install <plugin-name>@akd-agents
 ```
 
@@ -87,7 +87,7 @@ marketplace clone:
 ```
 /plugin uninstall <plugin-name>
 /plugin marketplace remove akd-agents
-/plugin marketplace add sanzog03/claude-skills-and-plugins
+/plugin marketplace add NASA-IMPACT/akd-plugins-claude
 /plugin install <plugin-name>@akd-agents
 ```
 
