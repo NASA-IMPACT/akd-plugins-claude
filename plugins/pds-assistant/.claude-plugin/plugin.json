@@ -1,0 +1,27 @@
+{
+  "name": "pds-assistant",
+  "displayName": "PDS Assistant",
+  "description": "Find the right NASA Planetary Data System (PDS) datasets for a planetary-science query: route to the correct PDS node, walk the live archive directories, and return grounded dataset identifiers and paths.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sanjog Thapa",
+    "email": "sanjog.thapa@uah.edu"
+  },
+  "license": "Apache-2.0",
+  "userConfig": {
+    "pds_stage1_mcp_key": {
+      "type": "string",
+      "title": "PDS Stage 1 API token",
+      "description": "FastMCP token (fmcp_...) for the PDS Stage 1 MCP server (live archive directory walking: pds_list_missions, pds_list_dataset_dirs, pds_probe_datasets, ...). Leave blank if the server is public.",
+      "sensitive": true,
+      "required": false
+    },
+    "pds_stage2_mcp_key": {
+      "type": "string",
+      "title": "PDS Stage 2 API token",
+      "description": "FastMCP token (fmcp_...) for the PDS Stage 2 MCP server (faceted/granule search: ode_*, opus_*, img_*, sbn_*, pds4* tools). Leave blank if the server is public.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}

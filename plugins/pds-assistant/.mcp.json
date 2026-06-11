@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "pds-stage-1": {
+      "type": "http",
+      "url": "https://fuzzy-aquamarine-swordtail.fastmcp.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.pds_stage1_mcp_key}"
+      }
+    },
+    "pds-stage-2": {
+      "type": "http",
+      "url": "https://natural-bronze-stingray.fastmcp.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.pds_stage2_mcp_key}"
+      }
+    }
+  }
+}
