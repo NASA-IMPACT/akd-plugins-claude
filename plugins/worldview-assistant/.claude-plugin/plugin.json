@@ -7,7 +7,7 @@
     "name": "Sanjog Thapa",
     "email": "sanjog.thapa@uah.edu"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "userConfig": {
     "ieso_mcp_key": {
       "type": "string",

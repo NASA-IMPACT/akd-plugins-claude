@@ -1,4 +1,4 @@
-# AKD Agents for Earth Science
+# AKD Agents for Science
 
 A [Claude Code plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces)
 (`akd-agents`) hosting agents for exploring NASA Earth-observation data in
@@ -37,3 +37,7 @@ Note: After installing/updating a plugin, you may need to `/reload-plugins` for 
 
 Want to add a plugin to the marketplace or test changes locally? See the
 [development guide](docs/development.md).
+
+## License
+
+[Apache 2.0](LICENSE)
