@@ -1,0 +1,8 @@
+# Playwright MCP session artifacts (browser snapshots, console logs)
+.playwright-mcp/
+
+# macOS
+.DS_Store
+
+# Claude Code local settings (per-machine, not shared)
+.claude/settings.local.json
