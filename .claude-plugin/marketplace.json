@@ -1,6 +1,6 @@
 {
   "name": "akd-agents",
-  "description": "AKD Agents for Earth Science — Claude Code plugins for exploring NASA Earth-observation data.",
+  "description": "AKD Agents for Science — Claude Code plugins for exploring NASA science data, from Earth observation to planetary archives.",
   "owner": {
     "name": "Sanjog Thapa",
     "email": "sanjog.thapa@uah.edu"
@@ -10,6 +10,12 @@
       "name": "worldview-assistant",
       "source": "./plugins/worldview-assistant",
       "description": "Explore NASA Worldview in natural language: discover satellite datasets, understand what they represent, and generate reproducible map visualizations.",
+      "version": "0.1.0"
+    },
+    {
+      "name": "pds-assistant",
+      "source": "./plugins/pds-assistant",
+      "description": "Find the right NASA Planetary Data System (PDS) datasets for a planetary-science query: route to the correct PDS node, walk the live archives, and return grounded dataset identifiers and paths.",
       "version": "0.1.0"
     }
   ]
